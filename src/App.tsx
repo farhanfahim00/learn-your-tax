@@ -1,6 +1,9 @@
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import FeatureCards from "./components/FeatureCards"
+import HowItWorks from "./components/HowItWorks"
+import ToolChooser from "./components/ToolChooser"
+import TaxQuestions from "./components/TaxQuestions"
 
 function App() {
   return (
@@ -8,6 +11,8 @@ function App() {
       <Navbar />
       <Hero />
       <FeatureCards />
+      <ToolChooser />
+      <TaxQuestions />
     </div>
   )
 }

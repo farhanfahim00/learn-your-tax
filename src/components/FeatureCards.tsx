@@ -10,13 +10,18 @@ const features = [
   {
     title: "Payslip decoder",
     description:
-      "Paste or upload your German payslip and see what every line means: Lohnsteuer, Soli, pension, health insurance (all processed on your device SAFELY).",
+      "Paste or upload your German payslip and see what every line means: Lohnsteuer, Soli, pension, health insurance (all processed on your device).",
   },
   {
     title: "Built for internationals",
     description:
       "Special rules like the Werkstudent privilege and Steuerklassen are explained in plain English, not bureaucratic German.",
   },
+  {
+    title: "No data leaves your device",
+    description:
+      "All calculations are done in your browser. We never store or transmit your personal data.",
+  }
 ]
 
 function FeatureCards() {
